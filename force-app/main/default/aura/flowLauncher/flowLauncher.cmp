@@ -1,0 +1,17 @@
+<!--
+  @File Name          : flowLauncher.cmp
+  @Description        :
+  @Author             : James Loghry (Demand Chain)
+  @Group              :
+  @Last Modified By   : James Loghry (Demand Chain)
+  @Last Modified On   : 9/24/2019, 10:50:59 AM
+  @Modification Log   :
+  Ver       Date            Author      		    Modification
+  1.0    9/23/2019   James Loghry (Demand Chain)     Initial Version
+-->
+<aura:component implements="lightning:isUrlAddressable">
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <lightning:card>
+        <lightning:flow aura:id="flow" />
+    </lightning:card>
+</aura:component>
