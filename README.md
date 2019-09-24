@@ -13,4 +13,4 @@ c__myVariable1, c__myVariable2, c__myVariable3, etc. :  If your flow accepts Str
 ## The URL
 To call the lightning component / flow directly from a URL, use the following path:
 
-/cmp/c__flowLauncher?c__flow=<flowApiNameGoesHere>&c__<someVariableGoesHere>=<value>&c__<someOtherVariableGoesHere>
+/cmp/c__flowLauncher?c__flow=flowApiNameGoesHere&c__someVariableGoesHere=value&c__someOtherVariableGoesHere
