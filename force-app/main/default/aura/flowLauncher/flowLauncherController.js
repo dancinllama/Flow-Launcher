@@ -1,6 +1,5 @@
 ({
   doInit: function(component, event, helper) {
-    debugger;
     var pageRef = component.get("v.pageReference");
     var flow = component.find("flow");
     var flowVariables = [];
